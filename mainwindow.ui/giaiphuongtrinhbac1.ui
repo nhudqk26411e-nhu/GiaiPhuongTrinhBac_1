@@ -51,7 +51,8 @@ background-color: rgb(255, 170, 255);</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 127);</string>
+     <string notr="true">background-color: rgb(255, 255, 127);
+color: rgb(0, 0, 0);</string>
     </property>
     <property name="title">
      <string>Nhập hệ số: </string>
@@ -70,6 +71,9 @@ background-color: rgb(255, 170, 255);</string>
        <pointsize>12</pointsize>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);</string>
+     </property>
      <property name="text">
       <string>Hệ số a</string>
      </property>
@@ -84,7 +88,8 @@ background-color: rgb(255, 170, 255);</string>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 255, 255);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_3">
@@ -101,6 +106,9 @@ background-color: rgb(255, 170, 255);</string>
        <pointsize>12</pointsize>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);</string>
+     </property>
      <property name="text">
       <string>Hệ số b</string>
      </property>
@@ -115,15 +123,16 @@ background-color: rgb(255, 170, 255);</string>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 255, 255);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_4">
+    <widget class="QPushButton" name="pushButton">
      <property name="geometry">
       <rect>
        <x>120</x>
        <y>190</y>
-       <width>251</width>
+       <width>261</width>
        <height>41</height>
       </rect>
      </property>
@@ -133,18 +142,19 @@ background-color: rgb(255, 170, 255);</string>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(85, 170, 255);</string>
+      <string notr="true">background-color: rgb(85, 170, 255);
+color: rgb(0, 0, 0);</string>
      </property>
      <property name="text">
-      <string>GIẢI PHƯƠNG TRÌNH</string>
+      <string>Giải phương trình</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_5">
+    <widget class="QPushButton" name="pushButton_2">
      <property name="geometry">
       <rect>
-       <x>480</x>
+       <x>450</x>
        <y>190</y>
-       <width>101</width>
+       <width>171</width>
        <height>41</height>
       </rect>
      </property>
@@ -154,9 +164,8 @@ background-color: rgb(255, 170, 255);</string>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(0, 0, 0);
-background-color: rgb(85, 170, 255);
-</string>
+      <string notr="true">background-color: rgb(85, 170, 255);
+color: rgb(0, 0, 0);</string>
      </property>
      <property name="text">
       <string>Làm mới</string>
@@ -178,7 +187,8 @@ background-color: rgb(85, 170, 255);
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(170, 255, 255);</string>
+     <string notr="true">background-color: rgb(170, 255, 255);
+color: rgb(0, 0, 0);</string>
     </property>
     <property name="title">
      <string>Kết quả:</string>
@@ -191,6 +201,14 @@ background-color: rgb(85, 170, 255);
        <width>161</width>
        <height>31</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);</string>
      </property>
      <property name="text">
       <string>Phương trình:</string>
@@ -206,7 +224,8 @@ background-color: rgb(85, 170, 255);
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 255, 255);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_7">
@@ -245,7 +264,8 @@ font: 75 20pt &quot;MS Shell Dlg 2&quot;;</string>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 255, 255);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
      </property>
     </widget>
    </widget>
