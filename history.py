@@ -1,10 +1,11 @@
 from datetime import datetime
-class HistoryManager:
-    def __init__(self, filename="history.txt"):
+
+class TestHistoryManager:
+    def __init__(self, filename="test_history.txt"):
         self.filename = filename
 
-    def save_record(self, a: float, b: float, result: str):
-        """Lưu lịch sử tính toán vào file txt kèm thời gian"""
+    def save_test_case(self, a: float, b: float, result: str):
         now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        record = f"[{now}] Test case: a={a}, b={b} => {result}\n"
         with open(self.filename, "a", encoding="utf-8") as f:
-            f.write(f"[{now}] Phương trình: {a}x + ({b}) = 0  =>  {result}\n")
+            f.write(record)
