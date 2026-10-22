@@ -16,13 +16,13 @@
 
 ## 2. Phân công nhiệm vụ thành viên
 
-| Thành viên             | Vai trò phụ trách        | File / Module | Chi tiết công việc thực hiện |
-|:-----------------------|:-------------------------| :--- | :--- |
-| **Phạm Thị Quỳnh Như** | Thiết kế giao diện (GUI) | `main_window.ui` | Thiết kế cửa sổ Qt Designer, tạo các ô nhập $a$, $b$, nút Giải, Làm mới, vùng kết quả và chụp ảnh báo cáo. |
-| **Trần Huỳnh Gia Hy**  | Xử lý thuật toán (Logic) | `solver.py` | Lập trình giải các trường hợp $a \ne 0$, $a=0, b=0$, $a=0, b \ne 0$ và kiểm tra dữ liệu nhập không hợp lệ. |
-| **Đoàn Quỳnh Như**     | Kết nối giao diện PyQt6  | `main.py` | Nạp file `.ui`, kết nối sự kiện nút Giải/Làm mới và định dạng hiển thị kết quả/thông báo lỗi. |
-| **Lục Bảo Linh**       | Kiểm thử & Hoàn thiện    | `history.py` | Kiểm thử bộ giá trị (số âm, số thập phân, chữ, bỏ trống), kiểm tra bố cục giao diện và lưu log test. |
-| **Võ Hoàng Linh**          | Tích hợp, GitHub         | `README.md` | Tạo Repository, tổng hợp mã nguồn, biên soạn `README.md`, quản lý Pull Request và cập nhật Jira Board. |
+| Thành viên             | Vai trò phụ trách        | File / Module    | Chi tiết công việc thực hiện |
+|:-----------------------|:-------------------------|:-----------------| :--- |
+| **Phạm Thị Quỳnh Như** | Thiết kế giao diện (GUI) | `main_window.ui` | Thiết kế cửa sổ Qt Designer|
+| **Trần Huỳnh Gia Hy**  | Xử lý thuật toán (Logic) | `solver.py`      | Lập trình giải các trường hợp $a \ne 0$, $a=0, b=0$, $a=0, b \ne 0$ và kiểm tra dữ liệu nhập không hợp lệ. |
+| **Đoàn Quỳnh Như**     | Kết nối giao diện PyQt6  | `main.py`        | Nạp file `.ui`, kết nối sự kiện nút Giải/Làm mới và định dạng hiển thị kết quả/thông báo lỗi. |
+| **Lục Bảo Linh**       | Kiểm thử & Hoàn thiện    | `history.py`     | Kiểm thử bộ giá trị (số âm, số thập phân, chữ, bỏ trống), kiểm tra bố cục giao diện và lưu log test. |
+| **Võ Hoàng**           | Tích hợp, GitHub         | `Readme.md`         | Tạo Repository, tổng hợp mã nguồn, biên soạn `README.md`, quản lý Pull Request và cập nhật Jira Board. |
 
 ## 3. Cấu trúc dự án
 * `main_window.ui`: File thiết kế giao diện bằng Qt Designer.
