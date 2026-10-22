@@ -36,3 +36,7 @@
 ### Cài đặt thư viện
 ```bash
 pip install PyQt6
+---
+
+## 5. Quản lý dự án
+* **Link theo dõi tiến độ Jira Kanban:** https://st-team-zssq2ifo.atlassian.net/jira/software/projects/KAN/boards/2
